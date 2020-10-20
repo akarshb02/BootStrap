@@ -1,0 +1,24 @@
+    #title {
+        background-color: #ff4c68;
+    }
+    
+    .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    #tit {
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 100%;
+        color: white;
+    }
+    
+    .container {
+        padding: 3% 15%;
+    }
+    
+    .imgg {
+        transform: rotate(20deg);
+        padding: 20%;
+    }
