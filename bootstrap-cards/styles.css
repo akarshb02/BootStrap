@@ -1,0 +1,115 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#tit {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 100%;
+}
+
+.container {
+    padding: 3% 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.imgg {
+    transform: rotate(25deg);
+    width: 60%;
+    margin-left: 30%;
+}
+
+.navbar-brand {
+    font-family: "Montserrat";
+    font-size: 450rem;
+    font-weight: bold;
+    padding-top: 20%;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding: 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-thin';
+    padding: 0 18px 0 18px;
+}
+
+.downlos {
+    margin: 5% 3% 5% 0;
+}
+
+.row {
+    padding-top: 4.5rem;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.future-box {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+    padding: 7%;
+    color: gray;
+}
+
+h2 {
+    font-family: 'Mantserrat-bold';
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Mantserrat-bold';
+}
+
+.fa {
+    color: red;
+}
+
+.fa:hover {
+    color: rgb(223, 133, 73);
+}
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: rgb(223, 133, 73);
+    text-align: center;
+    color: #fff;
+}
+
+.test-imgs {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: rgb(223, 133, 73);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.ge {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
