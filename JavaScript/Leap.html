@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Leap</title>
+</head>
+
+<body>
+
+    <script>
+        function isLeap(year) {
+            if (year % 4 == 0) {
+                if (year % 100 === 0) {
+                    if (year % 400 == 0) {
+                        alert(year);
+                        alert("leap year");
+                    }
+                } else {
+                    alert(year);
+                    alert("not leap year");
+                }
+
+            } else {
+                alert(year);
+                alert("not leap year");
+            }
+
+        }
+        isLeap(2020);
+    </script>
+</body>
+
+</html>
