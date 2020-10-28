@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>fabu</title>
+</head>
+
+<body>
+
+    <script>
+        var output = [];
+
+        function fab(num) {
+            num = prompt("Enter number");
+            if (num === 1) {
+                output = [0]
+            } else if (num === 2) {
+                output = [0, 1];
+            } else {
+                output = [0, 1];
+                for (i = 2; i < num; i++) {
+                    output.push(output[output.length - 2] + output[output.length - 1]);
+                }
+            }
+            return output;
+        }
+        fab(50);
+        console.log(output);
+    </script>
+</body>
+
+</html>
