@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ageCal
+
+    </title>
+    <link rel="stylesheet" href="sm.css">
+</head>
+
+<body>
+    <script>
+        function lifeInWeeks(age) {
+
+            var days = 365;
+            var weks = 52 * age;
+            var mon = 12;
+            var tar = 90 * 52;
+            var md = days * age;
+            var m = days * 90;
+            var mm = mon * age;
+            var mta = mon * 90;
+
+
+            alert(" You have " + (m - md) + " days, " + (tar - weks) + " weeks," + " and " + (mta - mm) + " months left.");
+
+        }
+        lifeInWeeks(51);
+    </script>
+</body>
+
+</html>
