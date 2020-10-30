@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>High Order Function</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        function add(num1, num2) {
+            return num1 + num2;
+        }
+
+        function mul(num1, num2) {
+            return num1 * num2;
+        }
+
+        function sub(num1, num2) {
+            return num1 - num2;
+        }
+
+        function div(num1, num2) {
+            return num1 / num2;
+        }
+
+        function calculator(num1, num, operator) {
+            return operator(num1, num);
+        }
+        alert(calculator(6, 5, sub));
+    </script>
+</body>
+
+</html>
