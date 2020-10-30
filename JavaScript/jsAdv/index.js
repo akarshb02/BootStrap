@@ -1,0 +1,46 @@
+var rand = Math.floor(Math.random() * 4) + 1;
+var tar = 'sounds/tom-';
+var numberof = document.querySelectorAll(".drum").length;
+for (i = 0; i <= numberof; i++) {
+    document.querySelectorAll("button")[i].addEventListener("click", function() {
+
+        var buttonInner = this.innerHTML;
+
+        switch (buttonInner) {
+            case "w":
+                var tom1 = new Audio(tar + 1 + '.mp3');
+                tom1.play();
+                break;
+
+            case "a":
+                var tom2 = new Audio(tar + 2 + '.mp3');
+                tom2.play();
+                break;
+            case "s":
+                var tom3 = new Audio(tar + 3 + '.mp3');
+                tom3.play();
+                break;
+            case "d":
+                var tom4 = new Audio(tar + 4 + '.mp3');
+                tom4.play();
+                break;
+            case "j":
+                var snaree = new Audio('sounds/snare' + '.mp3');
+                snaree.play();
+                break;
+            case "k":
+                var cr = new Audio('sounds/crash' + '.mp3');
+                cr.play();
+                break;
+            case "l":
+                var sa = new Audio('sounds/kick-bass' + '.mp3 ');
+                sa.play();
+                break;
+
+            default:
+                console.log();
+
+        }
+
+    });
+}
