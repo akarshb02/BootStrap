@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+}
+
+.tit {
+    color: #FEF2BF;
+    font-size: 5rem;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.container {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#green {
+    background-color: green;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    display: inline-block;
+    margin: 5%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
